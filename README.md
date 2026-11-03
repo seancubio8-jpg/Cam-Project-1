@@ -1,7 +1,16 @@
-# Project 1 — Tapseafood Online Ordering
-Open `index.html` in a browser. Search/filter the sample food menu, add items, adjust quantities, and submit the checkout form for a sample receipt.
-- `index.html`: structure and forms
-- `styles.css`: responsive styling
-- `script.js`: menu, cart, totals, localStorage and demo checkout
-- `assets/`: custom SVG food illustrations
-Technology: HTML, CSS, vanilla JavaScript, browser localStorage. No real payment, backend, delivery, PHP or MySQL server is connected. A production version needs secure server-side validation, database storage and payment integration.
+# Tapseafood — Online Seafood Ordering
+
+A responsive seafood restaurant ordering website with menu search and category filters, cart quantity controls, persistent cart storage, and a demo checkout flow.
+
+## Run
+Open `index.html` in a modern browser. No build tools required.
+
+## Features
+- Responsive restaurant landing page and menu.
+- Filter by category and search dishes.
+- Add items, change quantities, and remove items from the cart.
+- Cart persists in localStorage.
+- Demo checkout saves orders to localStorage (`tapsea-orders`).
+
+## Demo limitations
+This is a front-end project. It does not connect to a restaurant POS, live delivery service, real payment gateway, or backend database. Checkout is simulated and does not collect payment.
